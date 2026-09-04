@@ -1,0 +1,4 @@
+<Page x:Class="Freely.App.Views.MemoryPage" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <StackPanel Padding="28,20" Spacing="8"><TextBlock Text="Memories" FontSize="22" FontWeight="SemiBold" /><TextBlock Text="Memory is off in this first milestone. Nothing is remembered without your control." Opacity="0.65" TextWrapping="Wrap" /></StackPanel>
+</Page>
+

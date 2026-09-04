@@ -1,0 +1,4 @@
+<Page x:Class="Freely.App.Views.AgentsPage" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <StackPanel Padding="28,20" Spacing="8"><TextBlock Text="Agents" FontSize="22" FontWeight="SemiBold" /><TextBlock Text="Freely starts with one reliable runtime and specialized tools, as specified." Opacity="0.65" TextWrapping="Wrap" /></StackPanel>
+</Page>
+

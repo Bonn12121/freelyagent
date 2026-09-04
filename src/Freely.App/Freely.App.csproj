@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows10.0.19041.0</TargetFramework>
+    <TargetPlatformMinVersion>10.0.17763.0</TargetPlatformMinVersion>
+    <RootNamespace>Freely.App</RootNamespace>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <Platforms>x64</Platforms>
+    <RuntimeIdentifiers>win-x64</RuntimeIdentifiers>
+    <UseWinUI>true</UseWinUI>
+    <WindowsPackageType>None</WindowsPackageType>
+    <WindowsAppSDKSelfContained>true</WindowsAppSDKSelfContained>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.WindowsAppSDK" Version="2.4.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Freely.Agent\Freely.Agent.csproj" />
+    <ProjectReference Include="..\Freely.AI\Freely.AI.csproj" />
+    <ProjectReference Include="..\Freely.Computer\Freely.Computer.csproj" />
+    <ProjectReference Include="..\Freely.Security\Freely.Security.csproj" />
+    <ProjectReference Include="..\Freely.Storage\Freely.Storage.csproj" />
+    <ProjectReference Include="..\Freely.Tools\Freely.Tools.csproj" />
+    <ProjectReference Include="..\Freely.Voice\Freely.Voice.csproj" />
+    <ProjectReference Include="..\Freely.Perception\Freely.Perception.csproj" />
+  </ItemGroup>
+</Project>
